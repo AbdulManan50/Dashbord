@@ -15,7 +15,11 @@ export default function Header() {
 
   return (
     <>
-      <div className={`h-[100vh] bg-[#282C34] border-r-[1px] border-white ${open ? "w-[20%]" : ""}`}>
+      <div
+        className={` bg-[#282C34] h-[100vh] border-r-[1px]  sticky border-white ${
+          open ? "w-[20%]" : ""
+        }`}
+      >
         <div className="px-5 py-4">
           <div className="flex justify-between items-center">
             <h1
