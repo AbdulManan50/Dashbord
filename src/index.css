@@ -12,6 +12,7 @@
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: white;
   border-radius: 10px;
+  background-image: url("/public/Image/user.jpg");
 }
 
 

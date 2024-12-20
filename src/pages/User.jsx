@@ -138,7 +138,7 @@ export default function User() {
                           <div className="rounded-full">
                             <img
                               className="w-10 rounded-full"
-                              src="Image/user.jpg"
+                              src="/Image/user.jpg"
                               alt=""
                             />
                           </div>
