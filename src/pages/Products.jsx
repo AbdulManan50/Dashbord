@@ -84,8 +84,7 @@ export default function Products() {
 
   return (
     <>
-      <Footer />
-      <div className="h-[calc(100vh-3.7rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar ">
+      <div className="h-[calc(100vh-3.5rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar ">
         <div className="flex gap-5 bg-[#20232A] px-5">
           <div className="bg-[#33373E] text-white p-5 rounded-2xl shadow-md flex justify-between items-start w-1/4 ">
             <div className="space-y-8">

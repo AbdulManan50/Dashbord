@@ -53,7 +53,6 @@ export default function User() {
   return (
     <>
       <div className="bg-[#20232A]">
-        <Footer />
         <div className="bg-[#20232A] h-[calc(100vh-3.5rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar pb-20">
           <div className="flex gap-5 bg-[#20232A] pb-5 px-5">
             <div className="bg-[#33373E] w-1/4 p-5 rounded-xl flex justify-between items-start">

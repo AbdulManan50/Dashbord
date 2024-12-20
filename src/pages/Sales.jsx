@@ -70,8 +70,7 @@ export default function Sales() {
 
   return (
     <>
-      <Footer />
-      <div className="h-[calc(100vh-3.7rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar">
+      <div className="h-[calc(100vh-3.5rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar">
         <div className="px-5 flex gap-5 bg-[#20232A] pb-5">
           <div className="bg-[#33373E] text-white p-6 rounded-lg w-1/3 shadow-md font-poppines space-y-5">
             <div className="flex justify-between items-center">

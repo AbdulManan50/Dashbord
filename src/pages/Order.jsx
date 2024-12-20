@@ -87,7 +87,6 @@ export default function Order() {
 
   return (
     <>
-      <Footer />
       <div className=" h-[calc(100vh-3.5rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar">
         <div className="flex gap-5 bg-[#20232A] py-10 px-5">
           <div className="bg-[#33373E] w-1/4 p-5 rounded-xl flex justify-between items-start">

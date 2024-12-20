@@ -9,9 +9,8 @@ import Footer from "../Component/Footer";
 export default function Overview() {
   return (
     <>
-      <div className="flex flex-col">
-        <Footer />
-        <div className="bg-[#20232A] w-full  h-[calc(100vh-3.7rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar ">
+      <div className="flex flex-col">   
+        <div className="bg-[#20232A] w-full  h-[calc(100vh-3.5rem)] overflow-y-scroll overflow-x-hidden custom-scrollbar ">
           <div className="flex  gap-5 px-5">
             <div className="w-1/2 flex flex-col gap-5">
               <div className="w-full flex gap-5">

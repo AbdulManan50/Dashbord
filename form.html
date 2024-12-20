@@ -1,0 +1,102 @@
+<!-- Step 2: Vehicle Information -->
+<div class="step step-container">
+    <h4 class="step-title">Step 2: Vehicle Information</h4>
+    <div id="vehicleList">
+      <!-- First vehicle added by default -->
+      <div class="vehicle-container mb-3" id="vehicle1">
+        <h5>Vehicle 1</h5>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label>Vehicle Inoperable</label>
+  
+            <select class="form-select mb-2" name="vehicle_inop[]" required>
+              <option value="" disabled selected>Select any one *</option>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select>
+            <div class="invalid-feedback">Please select a Vehicle Inop.</div>
+          </div>
+  
+          <div class="col-md-6 form-control">
+            <label>Vehicle Make</label>
+            <input
+              type="text"
+              class="mb-2"
+              name="vehicle_make[]"
+              placeholder="e.g Toyota"
+              required
+            />
+            <div class="invalid-feedback">Please enter Vehicle Make.</div>
+          </div>
+  
+          <div class="col-md-6">
+            <label>Vehicle Model</label>
+            <input
+              type="text"
+              class="form-control mb-2"
+              name="vehicle_model[]"
+              placeholder="e.g Camry"
+              required
+            />
+            <div class="invalid-feedback">Please enter Vehicle Model.</div>
+          </div>
+        </div>
+  
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label>Vehicle Model Year</label>
+            <input
+              type="number"
+              class="form-control mb-2"
+              name="vehicle_model_year[]"
+              placeholder=""
+              required
+            />
+            <div class="invalid-feedback">Please enter Vehicle Model Year.</div>
+          </div>
+  
+          <div class="new-vehicle-type">
+            <label>Select Vehicle Type</label>
+            <select class="form-select mb-2" name="vehicle_type[]" required>
+              <option value="" disabled selected>Select *</option>
+              <option value="SUV">SUV</option>
+              <option value="Car">Car</option>
+              <option value="Pickup">Pickup</option>
+              <option value="Van">Van</option>
+            </select>
+            <div class="invalid-feedback">Please select Vehicle Type.</div>
+          </div>
+        </div>
+  
+        <!-- 	  vehicle operble  -->
+  
+        <!-- 	   <div class="col mb-3">
+  <label class="form-label d-block">Vehicle Inoperable*</label>
+  <div>
+  <div class="form-check">
+    <input type="radio" class="form-check-input custom-radio" id="operatable" name="vechicalopertable" value="1" required>
+    <label class="form-check-label" for="operatable">Yes</label>
+  </div>
+  <div class="form-check">
+    <input type="radio" class="form-check-input custom-radio" id="inoperatable" name="vechicalopertable" value="2" required>
+    <label class="form-check-label" for="inoperatable">No</label>
+  </div>
+  <div class="invalid-feedback">Please select a Vehicle Inop.</div>
+  </div>
+  </div>
+     -->
+      </div>
+    </div>
+    <button type="button" class="btn btn-success mb-3" onclick="addVehicle()">
+      Add Vehicle
+    </button>
+    <div class="step-nav">
+      <button type="button" class="btn btn-secondary" onclick="prevStep()">
+        Previous
+      </button>
+      <button type="button" class="btn btn-primary" onclick="nextStep()">
+        Next
+      </button>
+    </div>
+  </div>
+  
